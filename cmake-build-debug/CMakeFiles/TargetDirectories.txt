@@ -1,0 +1,3 @@
+C:/PROJECTS/aethercode/weatherproject/cmake-build-debug/CMakeFiles/weatherproject.dir
+C:/PROJECTS/aethercode/weatherproject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/PROJECTS/aethercode/weatherproject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
