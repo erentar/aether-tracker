@@ -9,6 +9,9 @@ const Map = () => {
         <Image 
             src = {map_image}
             width = {850}
+            sx={{
+                borderRadius: '20px'    
+            }}
         />    
         </div>
         
