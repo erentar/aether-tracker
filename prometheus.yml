@@ -1,0 +1,5 @@
+scrape_configs:
+  - job_name: node-exporter
+    scrape_interval: 5s
+    static_configs:
+      - targets: ["172.17.0.1:9100"] # note that this has to be $(ip address show dev docker0 | grep -Po "(?<=inet ).*(?=/[0-9][0-9] brd.+)")

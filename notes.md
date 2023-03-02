@@ -1,0 +1,3 @@
+- `node_exporter`: This collects the hardware data and hosts them as a text file on a http endpoint.
+- `prometheus`: Time series database and logger. Prometheus periodically gets data from `node_exporter`. Needs `prometheus.yml` to configure targets to be queried. The data format is simple and can be hosted on any simple http server.
+- `grafana`: The frontend which draws nice plots. Gets data from prometheus. Can use other data sources too.
